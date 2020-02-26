@@ -1,0 +1,14 @@
+body {
+  font-family: 'Open Sans Condensed';
+  padding: 20px 60px;
+  background-image: url('https://www.gannett-cdn.com/-mm-/e18567b85a37dbe770568ee852dd32776ac1afaa/c=0-125-3900-2319/local/-/media/2020/02/21/USATODAY/usatsports/26310f3ee7ab412dbc047e5df9cacac2.jpg?width=3200&height=1801&fit=crop&format=pjpg&auto=webp');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+a {g
+  text-decoration: none;
+  color: black;
+}
+

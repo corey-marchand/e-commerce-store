@@ -1,0 +1,21 @@
+.footer-container {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  color: white;
+  list-style: none;
+  overflow: hidden;
+  position: fixed;
+        bottom: 0;
+        width: 100%;
+
+
+  & .contact-us-sec, 
+  .list{
+    list-style: none;
+    text-align: center;
+  }
+}

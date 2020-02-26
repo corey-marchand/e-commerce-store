@@ -1,0 +1,32 @@
+.header {
+  height: 90px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  position: fixed;
+        top: 0;
+        width: 100%;
+
+  .logo-container {
+    height: 100%;
+    width: 70px;
+    padding: 25px;
+  }
+
+  .options {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+
+
+    .option {
+      padding: 10px 1px;
+      color: white;
+    }
+  }
+}
