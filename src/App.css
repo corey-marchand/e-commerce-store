@@ -1,14 +1,18 @@
 body {
   font-family: 'Open Sans Condensed';
   padding: 20px 60px;
-  background-image: url('https://www.gannett-cdn.com/-mm-/e18567b85a37dbe770568ee852dd32776ac1afaa/c=0-125-3900-2319/local/-/media/2020/02/21/USATODAY/usatsports/26310f3ee7ab412dbc047e5df9cacac2.jpg?width=3200&height=1801&fit=crop&format=pjpg&auto=webp');
-  background-repeat: no-repeat;
+  background-image: url('https://images.unsplash.com/photo-1546563366-257f17846f2f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80');
+  background-repeat: cover;
   background-attachment: fixed;
   background-position: center;
+  overflow: scroll;
+  /* height: 950px; */
 }
-
-a {g
+ 
+a {
   text-decoration: none;
   color: black;
 }
 
+/* https://images.unsplash.com/photo-1515703407324-5f753afd8be8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1867&q=80
+ */

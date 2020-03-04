@@ -7,9 +7,7 @@ import Footer from './components/footer/footer.component';
 
 ReactDOM.render(
   <BrowserRouter>
-    <Header /> 
     <App />
-    <Footer />
   </BrowserRouter>,
   document.getElementById('root')
 )

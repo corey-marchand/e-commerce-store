@@ -1,68 +1,50 @@
 const SHOP_DATA = [
   {
     id: 1,
-    title: 'Hats',
+    title: 'BAUER',
     routeName: 'hats',
     items: [
       {
         id: 1,
-        name: 'Brown Brim',
-        imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
-        price: 25
+        name: 'BAUER 2N PRO KANE P88 87FLEX RH SENIOR',
+        imageUrl: 'https://cdn.hockeymonkey.com/media/catalog/product/cache/3/image/1000x/9df78eab33525d08d6e5fb8d27136e95/b/a/bauer-hockey-stick-nexus-2n-griptac-jr.jpg',
+        price: 190
       },
       {
         id: 2,
-        name: 'Blue Beanie',
-        imageUrl: 'https://www.logolynx.com/images/logolynx/b7/b77bf32ca55eaff5777fccc226ffa9dd.jpeg',
-        price: 18
+        name: 'BAUER 2N PRO KANE P88 77FLEX RH SENIOR',
+        imageUrl: 'https://cdn.hockeymonkey.com/media/catalog/product/cache/3/image/1000x/9df78eab33525d08d6e5fb8d27136e95/b/a/bauer-hockey-stick-supreme-2s-pro-grip-sr.jpg',
+        price: 220
       },
       {
         id: 3,
-        name: 'Brown Cowboy',
-        imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
+        name: 'BAUER 2S PRO KANE P88 77FLEX LH SENIOR',
+        imageUrl: 'https://cdn.hockeymonkey.com/media/catalog/product/cache/3/image/1000x/9df78eab33525d08d6e5fb8d27136e95/b/a/bauer-hockey-stick-supreme-2s-pro-grip-sr.jpg',
         price: 35
       },
       {
         id: 4,
-        name: 'Grey Brim',
-        imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
+        name: 'BAUER 2S PRO KANE P88 87FLEX LH SENIOR',
+        imageUrl: 'https://cdn.hockeymonkey.com/media/catalog/product/cache/3/image/1000x/9df78eab33525d08d6e5fb8d27136e95/b/a/bauer-hockey-stick-supreme-2s-pro-grip-sr.jpg',
         price: 25
       },
       {
         id: 5,
-        name: 'Green Beanie',
-        imageUrl: 'https://i.ibb.co/YTjW3vF/green-beanie.png',
+        name: 'BAUER 2S PRO KANE P88 87FLEX RH SENIOR',
+        imageUrl: 'https://cdn.hockeymonkey.com/media/catalog/product/cache/3/image/1000x/9df78eab33525d08d6e5fb8d27136e95/b/a/bauer-hockey-stick-supreme-2s-pro-grip-sr.jpg',
         price: 18
       },
       {
         id: 6,
-        name: 'Palm Tree Cap',
-        imageUrl: 'https://i.ibb.co/rKBDvJX/palm-tree-cap.png',
+        name: 'BAUER 2S PRO KANE P88 77FLEX RH SENIOR',
+        imageUrl: 'https://cdn.hockeymonkey.com/media/catalog/product/cache/3/image/1000x/9df78eab33525d08d6e5fb8d27136e95/b/a/bauer-hockey-stick-supreme-2s-pro-grip-sr.jpg',
         price: 14
-      },
-      {
-        id: 7,
-        name: 'Red Beanie',
-        imageUrl: 'https://i.ibb.co/bLB646Z/red-beanie.png',
-        price: 18
-      },
-      {
-        id: 8,
-        name: 'Wolf Cap',
-        imageUrl: 'https://i.ibb.co/1f2nWMM/wolf-cap.png',
-        price: 14
-      },
-      {
-        id: 9,
-        name: 'Blue Snapback',
-        imageUrl: 'https://i.ibb.co/X2VJP2W/blue-snapback.png',
-        price: 16
       }
     ]
   },
   {
     id: 2,
-    title: 'Sneakers',
+    title: 'CCM',
     routeName: 'sneakers',
     items: [
       {
@@ -117,7 +99,7 @@ const SHOP_DATA = [
   },
   {
     id: 3,
-    title: 'Jackets',
+    title: 'WARRIOR',
     routeName: 'jackets',
     items: [
       {
