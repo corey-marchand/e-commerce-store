@@ -6,8 +6,8 @@ import App from './App';
 import Footer from './components/footer/footer.component';
 
 ReactDOM.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>,
+  // <BrowserRouter>
+    <App />,
+  /* </BrowserRouter>, */
   document.getElementById('root')
 )
