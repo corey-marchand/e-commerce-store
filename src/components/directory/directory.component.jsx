@@ -5,47 +5,50 @@ import MenuItem from '../menu-item/menu-item.component';
 import './directory.styles.scss';
 
 class Directory extends React.Component {
-  constructor(){
+  constructor() {
     super();
 
     this.state = {
-       sections: [
+      sections: [
         {
-          title: '',
-          imageUrl: 'https://www.logolynx.com/images/logolynx/b7/b77bf32ca55eaff5777fccc226ffa9dd.jpeg',
-          id: 1,
-          linkUrl: 'hats'
+          title: 'hats',
+          imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+          id: 1
         },
         {
-          title: '',
-          imageUrl: 'https://i1.wp.com/www.coronainline.com/wp-content/uploads/2015/12/Bauer-Logo-600.jpg?ssl=1',
-          id: 2,
-          linkUrl: ''
+          title: 'jackets',
+          imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+          id: 2
         },
         {
-          title: '',
-          imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSh1xRFQUukMZf30HOm2viS1rVAWGXKfYlOvXgNs47bjhbtqOu6',
-          id: 3,
-          linkUrl: ''
+          title: 'sneakers',
+          imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+          id: 3
         },
         {
-          title: '',
-          imageUrl: 'https://marketplace.canva.com/EADaoHKBHSE/1/0/800w/canva-dried-winter-branches-photo-winter-clearance-sale-facebook-ad-iv1mMqTQKoY.jpg',
-          id: 4,
+          title: 'womens',
+          imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
           size: 'large',
-          linkUrl: ''
+          id: 4
+        },
+        {
+          title: 'mens',
+          imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+          size: 'large',
+          id: 5
         }
-      ] 
-    }
+      ]
+    };
   }
-  render(){
-    return(
+
+  render() {
+    return (
       <div className='directory-menu'>
-          {this.state.sections.map(({ id, ...otherSectionProps }) => (
-            <MenuItem key={id} {...otherSectionProps} />
-          ))}
+        {this.state.sections.map(({ title, imageUrl, id, size }) => (
+          <MenuItem key={id} title={title} imageUrl={imageUrl} size={size} />
+        ))}
       </div>
-    )
+    );
   }
 }
 
