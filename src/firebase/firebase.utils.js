@@ -3,13 +3,14 @@ import 'firebase/firestore';
 import 'firebase/auth';
 
 const config = {
-  apiKey: "AIzaSyAd3trvPu469W_jlx2uAn4Z49si4ndokws",
-  authDomain: "cheap-hockey-sticks.firebaseapp.com",
-  databaseURL: "https://cheap-hockey-sticks.firebaseio.com",
-  projectId: "cheap-hockey-sticks",
-  storageBucket: "cheap-hockey-sticks.appspot.com",
-  messagingSenderId: "602759264956",
-  appId: "1:602759264956:web:3fce094c57e3da4610eeb9"
+  apiKey: "AIzaSyCTJV4HElADOFVBrRPKP3QQoCeM5ym2-KM",
+    authDomain: "e-commerce-store-253b8.firebaseapp.com",
+    databaseURL: "https://e-commerce-store-253b8.firebaseio.com",
+    projectId: "e-commerce-store-253b8",
+    storageBucket: "e-commerce-store-253b8.appspot.com",
+    messagingSenderId: "651981103476",
+    appId: "1:651981103476:web:f6920941dd942eb6e78c21",
+    measurementId: "G-KTP4KC51QV"
 };
 
 firebase.initializeApp(config);
