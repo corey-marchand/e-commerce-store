@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "firebase": "^7.19.1",
+    "firebase": "^7.20.0",
     "heroku": "^7.43.0",
     "node-sass": "^4.14.1",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "react-redux": "^7.2.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "2.1.8",
@@ -16,7 +16,8 @@
     "redux": "^4.0.5",
     "redux-logger": "^3.0.6",
     "redux-persist": "^6.0.0",
-    "reselect": "^4.0.0"
+    "reselect": "^4.0.0",
+    "vercel": "^20.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,7 +35,7 @@
   "bugs": {
     "url": "https://github.com/corey-marchand/e-commerce-store/issues"
   },
-  "homepage": "https://github.com/corey-marchand/e-commerce-store#readme",
+  "homepage": "https://e-commerce-store.vercel.app/",
   "browserslist": [
     ">0.2%",
     "not dead",
